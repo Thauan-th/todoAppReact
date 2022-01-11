@@ -10,6 +10,7 @@ export default props =>(
         </Grid>
         <Grid cols="12 3 2">
             <IconButton style='primary' icon='plus' Onclick={props.handleAdd}  ></IconButton>
+            <IconButton style='info' icon='search' Onclick={props.handleSearch}  ></IconButton>
         </Grid>
     </div>
         
